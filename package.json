@@ -4,7 +4,7 @@
   "description": "demo of Daily's prebuilt UI for video calls",
   "scripts": {
     "prettify": "prettier --write \"./**/*.{js,css,html,md}\"",
-    "dev": "http-server",
+    "dev": "http-server --port 3000",
     "netlify-build": "sed -i s/DAILY_API_KEY_PLACEHOLDER/${DAILY_API_KEY}/g netlify.toml"
   },
   "repository": {
